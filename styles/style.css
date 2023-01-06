@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+}
+
+header {
+    background-image: url(../banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 808px;
+}
+
+/* banner */
+
+.textarea {
+    text-align: end;
+    padding-top: 116px;
+    padding-left: 800px;
+    padding-right: 300px;
+}
+
+.textarea h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: white;
+}
+
+.textarea p {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    font-family: 'Work Sans';
+    margin: 24px 0;
+}
+
+.primary-button {
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    background-color: white;
+    font-weight: 600;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* main section  */
+.section1 {
+    display: flex;
+    margin: 129px 200px;
+}
+
+.section1-textarea {
+    padding-top: 160px;
+    padding-right: 0px;
+}
+
+.section1-textarea h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section1-textarea p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    color: #444343;
+    padding: 20px 0;
+}
+.icon{
+    height: 13px;
+    width: 13x;
+    margin-right: 10px;    
+   
+}
+.checkbox-paragraph{
+    
+    white-space: nowrap;
+}
+  
