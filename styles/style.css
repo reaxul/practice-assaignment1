@@ -67,14 +67,55 @@ header {
     color: #444343;
     padding: 20px 0;
 }
-.icon{
+
+.icon {
     height: 13px;
     width: 13x;
-    margin-right: 10px;    
-   
+    margin-right: 10px;
+
 }
-.checkbox-paragraph{
-    
+
+.checkbox-paragraph {
+
     white-space: nowrap;
 }
-  
+
+/* section1 done  */
+/* section2 */
+.section2 {
+    text-align: center;
+    margin: 129px 200px;
+}
+
+.section2-title {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-descrived {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    font-family: 'Work Sans';
+}
+
+.item-of-skill {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+/* section3  */
+.section3 {
+    background-repeat: no-repeat;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    margin: 129px 200px;
+    mix-blend-mode: multiply;
+
+}
