@@ -83,19 +83,24 @@ header {
 /* section1 done  */
 /* section2 */
 .section2 {
+    align-items: center;
     text-align: center;
     margin: 129px 200px;
+    padding-left: 190px;
 }
 
+/* section 2 is not moving to the center position, i tried a lot of method.  */
 .section2-title {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px;
+
 }
 
 .skill-title {
     font-weight: 700;
     font-size: 30px;
+    white-space: nowrap;
 }
 
 .skill-descrived {
@@ -108,14 +113,40 @@ header {
 .item-of-skill {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 60px;
 }
 
 /* section3  */
 .section3 {
+    background-image: url(../images/watch.png), linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    ;
+    background-blend-mode: overlay;
     background-repeat: no-repeat;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    width: 1140px;
+    height: 300px;
     margin: 129px 200px;
-    mix-blend-mode: multiply;
+}
 
+.blend-image h3 {
+    width: 459px;
+    height: 94px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-top: 60px;
+    margin-bottom: 20px;
+
+}
+.call-button{
+    margin-left: 60px;
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+font-size: 20px;
+color: #005FAC;
+border-radius: 6px;
+border: 0;
 }
