@@ -42,6 +42,13 @@ header {
     font-size: 20px;
     border: 0;
     border-radius: 5px;
+   
+}
+.primary-button:hover{
+    width: 165px;
+    height:67px;
+   
+    
 }
 
 /* main section  */
@@ -85,23 +92,47 @@ header {
 /* section1 done  */
 
 /* bonus section  */
-.bonus-section{
+.bonus-section {
     display: flex;
     margin: 99px 150px;
 }
-.inroduction h3{
+
+.inroduction h3 {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px;
     padding-top: 100px;
 
 }
-.inroduction p, ul li{
+
+.inroduction p,
+ul li {
     font-weight: 500;
     font-size: 18px;
     color: #737272;
     font-family: 'Work Sans';
 }
+
+.hire {
+    background-color: #005FAC;
+    color: white;
+    width: 130px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 22px;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 12px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.hire:hover{
+    width: 135px;
+    height: 58px;
+    font-weight: 610;
+    font-size: 24px;
+}
+
 /* section2 */
 .section2 {
 
@@ -172,6 +203,12 @@ header {
     border-radius: 6px;
     border: 0;
 }
+.call-button:hover{
+    width: 135px;
+    height: 53px;
+    font-weight: 650;
+    font-size: 17px;
+}
 
 /* footer section  */
 .footer-section {
@@ -234,5 +271,13 @@ a {
     width: 90.11px;
     height: 34px;
 }
-
+#subscribe-button:hover{
+    background:red;
+    border-radius: 6px;
+    color: yellow;
+    border: 0;
+    width: 90.11px;
+    height: 34px;
+    
+}
 /* done without extra section  */
