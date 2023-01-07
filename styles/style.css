@@ -6,8 +6,8 @@ header {
     background-image: url(../banner/banner3.png);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 808px;
+    width: 1180px;
+    height: 598px;
 }
 
 /* banner */
@@ -15,8 +15,8 @@ header {
 .textarea {
     text-align: end;
     padding-top: 116px;
-    padding-left: 800px;
-    padding-right: 300px;
+    padding-left: 600px;
+    padding-right: 100px;
 }
 
 .textarea h1 {
@@ -47,12 +47,15 @@ header {
 /* main section  */
 .section1 {
     display: flex;
-    margin: 129px 200px;
+    margin: 99px 150px;
+
 }
 
 .section1-textarea {
     padding-top: 160px;
     padding-right: 0px;
+    width: 376px;
+    height: 337.61px;
 }
 
 .section1-textarea h2 {
@@ -76,20 +79,21 @@ header {
 }
 
 .checkbox-paragraph {
-
     white-space: nowrap;
 }
 
 /* section1 done  */
+
 /* section2 */
 .section2 {
-    align-items: center;
+
     text-align: center;
-    margin: 129px 200px;
-    padding-left: 190px;
+    margin: 99px 150px;
+    padding-left: 80px;
+
 }
 
-/* section 2 is not moving to the center position, i tried a lot of method.  */
+
 .section2-title {
     font-weight: 700;
     font-size: 40px;
@@ -123,8 +127,8 @@ header {
     ;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    width: 1140px;
-    height: 300px;
+    width: 860px;
+    height: 240px;
     margin: 129px 200px;
 }
 
@@ -136,17 +140,81 @@ header {
     font-size: 40px;
     color: #FFFFFF;
     padding-left: 60px;
-    padding-top: 60px;
+    padding-top: 33px;
     margin-bottom: 20px;
 
 }
-.call-button{
+
+.call-button {
     margin-left: 60px;
-    width: 160px;
-    height: 64px;
+    width: 130px;
+    height: 50px;
     font-weight: 600;
-font-size: 20px;
-color: #005FAC;
-border-radius: 6px;
-border: 0;
+    font-size: 17px;
+    color: #005FAC;
+    border-radius: 6px;
+    border: 0;
 }
+
+/* footer section  */
+.footer-section {
+    background: #151414;
+    width: 1180px;
+    height: 500px;
+}
+
+.footer-elements {
+    display: flex;
+    margin: 129px 200px;
+    color: white;
+    gap: 280px;
+    padding-top: 150px;
+}
+
+.future {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.future p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family:
+        font-family: 'Work Sans';
+}
+
+br {
+    margin-top: 20px;
+}
+
+a {
+
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+.subscribe {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#email {
+    width: 230px;
+    height: 34px;
+    margin-top: 35px;
+    margin-bottom: 13px;
+    border-color: white;
+    border-radius: 5px;
+    border
+}
+
+#subscribe-button {
+    background: #005FAC;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    width: 90.11px;
+    height: 34px;
+}
+/* done without extra section  */
